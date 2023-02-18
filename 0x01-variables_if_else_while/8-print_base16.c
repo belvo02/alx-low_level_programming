@@ -1,21 +1,21 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
- * main - Entry point
+ * main - entry point
  *
- * Return: Always 0 (Success)
+ * Description: Print all the digits of base 16 in lowercase
+ * Return: 0
  */
 int main(void)
 {
-	int d;
-	char low;
+	char x;
 
-	for (d = '0'; d <= '9'; d++)
-		putchar(d);
-	for (low = 'a'; low <= 'f'; low++)
-		putchar(low);
-		putchar('\n');
+	for (x = '0'; x <= '9'; ++x)
+		putchar(x);
+	for (x = 'a'; x <= 'f'; ++x)
+		putchar(x);
+
+	putchar('\n');
 
 	return (0);
 }

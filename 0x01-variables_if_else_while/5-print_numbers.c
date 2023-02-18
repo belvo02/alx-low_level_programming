@@ -1,18 +1,20 @@
+
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
- * main - Entry point
+ * main - entry point
  *
- * Return: Always 0 (Success)
+ * Description: Print numbers 0 to 9 on one line
+ * Return: 0
  */
 int main(void)
 {
-	int i;
+	char i;
 
-	for (i = 0; i < 10; i++)
-		printf("%d", i);
-		printf("\n");
+	for (i = '0'; i <= '9'; ++i)
+		putchar(i);
+
+	putchar('\n');
 
 	return (0);
 }
