@@ -1,16 +1,13 @@
 #include <stdio.h>
+#include "main.h"
 
-int main () {
-   char ch;
-
-   for(ch = 'a' ; ch <= 'z' ; ch++)
-    {
-      putchar(ch);
-   }
+Void print_alphabet(void)
 {
-    putchar('\n');
+	char ch;
 
-}
-   return(0);
+	for (ch ='a'; ch <= 'z';ch++)
+	_putchar(ch)
+
+	_putchar('\n')
 }
 
