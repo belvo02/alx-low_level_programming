@@ -1,11 +1,9 @@
-/* print without printf */
-#include<stdio.h>
-main()
+#include <stdio.h>
+#include "main.h"
+/*print _putchar without using printf*/
+int main ()
 {
-	char st[10] = "\_putchar\n";
-	int n=0;
-	while(st[n] != '\0') {
-		putchar(st[n]);
-		n++;
-	}
+putchar('_putchar');
+putchar('\n');
+return (0);
 }
