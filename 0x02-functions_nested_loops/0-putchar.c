@@ -1,7 +1,12 @@
 /* print without printf */
-#include <stdio.h>
-int main()
+#include<stdio.h>
+#include<main.h>
+main()
 {
-   puts("_putchar\n");
-    return 0;
-}    
+	char st[10] = "\_putchar\n";
+	int n=0;
+	while(st[n] != '\0') {
+		putchar(st[n]);
+		n++;
+	}
+}
