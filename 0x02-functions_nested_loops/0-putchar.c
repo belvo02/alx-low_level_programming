@@ -1,7 +1,6 @@
+#include <stdio.h>
 #include "main.h"
-
 /*print _putchar without using printf*/
-
 int main (void)
 {
 putchar('_');
