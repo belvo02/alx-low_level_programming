@@ -1,13 +1,17 @@
+
 #include <stdio.h>
 #include "main.h"
 /*print _putchar without using printf*/
-int main () 
+int main ()
 {
-	char st[10] = "\_putchar\n";
-	int n=0;
-	while(st[n] != '\0')
-       	{
-		putchar(st[n]);
-		n++;
-	}
+putchar('_');
+putchar('p');
+putchar('u');
+putchar('t');
+putchar('c');
+putchar('h');
+putchar('a');
+putchar('r');
+putchar('\n');
+return (0);
 }
