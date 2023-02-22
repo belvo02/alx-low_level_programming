@@ -1,6 +1,5 @@
 /* print without printf */
 #include<stdio.h>
-#include<main.h>
 main()
 {
 	char st[10] = "\_putchar\n";
