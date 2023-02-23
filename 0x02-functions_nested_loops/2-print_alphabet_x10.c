@@ -1,17 +1,20 @@
 #include "main.h"
-/* Print alphabet x 10 */
+/**
+* print_alphabet_x10 - prints out lowercase
+* alphabet on ten different lines in a column
+*/
+void print_alphabet_x10(void)
+	{
+	int count = 0;
+	char alp;
 
-void print_alphabet_x10(void);
-{
-	int ten;
-	char du;
-for (ten = 0; ten <= 9, ten++)
+	while (count++ <= 9)
+
 	{
-	for (du = 'a'; du <= 'z'; du++)
-	{
-		_putchar(du);
-	_putchar('\n');
+		for (alp = 'a'; alp <= 'z'; alp++)
+		{
+			_putchar(alp);
+			_putchar('\n');
+		}
 	}
 	}
-}
-
