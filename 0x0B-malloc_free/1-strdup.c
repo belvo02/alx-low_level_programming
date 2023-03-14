@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib>
+#include <stdlib.h>
 
 /**
  * _strdup - duplicate string to new pointer
@@ -12,18 +12,20 @@
 char *_strdup(char *str)
 {
 	char *duplicate;
-	unsigned int i, len;
+	unsigned int i, dup;
 
 	i = 0;
 	dup = 0;
 
 	if (str == NULL)
 		return (NULL);
+
 	while (str[dup])
 		dup++;
-		duplicate = malloc(sizeof(char) * (dup+1));
+	duplicate = malloc(sizeof(char) * (dup + 1));
+	
 	if (duplicate == NULL)
-	return (NULL);
+		return (NULL);
 	while ((duplicate[i] = str[i]) != '\0')
 		i++;
 	return (duplicate);
