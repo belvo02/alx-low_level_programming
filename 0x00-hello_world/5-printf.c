@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/*
+ * main - function that prints usinf printf 
+ * return 0 on sucess
+ * */
+
 int main(void)
 {
 
