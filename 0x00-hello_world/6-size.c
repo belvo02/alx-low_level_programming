@@ -1,5 +1,7 @@
 #include <stdio.h>
-/*various type sizes*/
+/*
+ * Main - print various type sizes
+ * return 0 on sucess*/
 
 int main(void)
 {
