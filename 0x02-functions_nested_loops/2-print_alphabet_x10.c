@@ -1,22 +1,45 @@
 #include "main.h"
+
 /**
-* print_alphabet_x10 - prints out lowercase
-* alphabet on ten different lines in a column
-*/
+ * print_alphabet_x10 - func
+ *
+ * Return - 0
+ */
 void print_alphabet_x10(void)
-	{
-	int count = 0;
-	char alp;
+{
+int b = 0;
+while (b < 10)
+{
+char a = 'a';
+while (a <= 'z')
+{
+_putchar(a);
+a++;
+}
+_putchar('\n');
+b++;
+}
+#include "main.h"
 
-	while (count++ <= 9)
-
-	{
-		_putchar('\n');
-
-		for (alp = 'a'; alp <= 'z'; alp++)
-		{
-			_putchar(alp);
-		}
-	}
-	}
+/**
+ * print_alphabet_x10 - func
+ *
+ * Return - 0
+ */
+void print_alphabet_x10(void)
+{
+int b = 0;
+while (b < 10)
+{
+char a = 'a';
+while (a <= 'z')
+{
+_putchar(a);
+a++;
+}
+_putchar('\n');
+b++;
+}
+}
+}
 
